@@ -12,7 +12,7 @@ const Logo = (props) => {
           alt="logo"
         />
       ) : (
-        <p style={{ width: `${props.tamanho}` }}>{props.logo}</p>
+        <p style={{ fontSize: `${props.tamanho}` }}>{props.logo}</p>
       )}
     </div>
   );

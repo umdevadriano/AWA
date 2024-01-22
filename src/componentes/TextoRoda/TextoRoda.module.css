@@ -3,12 +3,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 6rem;
-  background: -webkit-linear-gradient(left, #5983bf, #11063d);
-  background: -moz-linear-gradient(left, #5983bf, #11063d);
-  background: -ms-linear-gradient(left, #5983bf, #11063d);
-  background: -o-linear-gradient(left, #5983bf, #11063d);
-  background: linear-gradient(to right, #5983bf, #11063d);
+  height: 10rem;
+  background: #0000;
   color: #eee;
 }
 .Container span {

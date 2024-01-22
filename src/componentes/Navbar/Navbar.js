@@ -2,7 +2,6 @@ import { useRef } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../Logo/Logo';
 import '../Navbar/Navbar.css';
-import imagem from '../Banner/png.png';
 import { Link } from 'react-scroll';
 
 function Navbar() {
@@ -20,7 +19,7 @@ function Navbar() {
 
   return (
     <header>
-      <Logo logo="AWA" tamanho="4rem" tipo="T" />
+      <Logo logo="AWA" tamanho="3rem" tipo="T" />
 
       <nav ref={navRef}>
         {titulos.map((titulo) => (

@@ -2,3 +2,9 @@
   width: 20%;
   height: 100%;
 }
+.Container p {
+  background: #140b11;
+  background: linear-gradient(to right, #140b11 13%, #a07ccf 56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

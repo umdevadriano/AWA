@@ -11,16 +11,11 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 4rem;
+  height: 8rem;
   padding: 0 2rem;
-  /* background-color: var(--mainColor); */
-  background: -webkit-linear-gradient(left, #5983bf, #11063d);
-  background: -moz-linear-gradient(left, #5983bf, #11063d);
-  background: -ms-linear-gradient(left, #5983bf, #11063d);
-  background: -o-linear-gradient(left, #5983bf, #11063d);
-  background: linear-gradient(to right, #5983bf, #11063d);
-  color: var(--textColor);
+  background: #fff;
   position: fixed;
+  border-bottom: 1px solid #efefef;
 }
 
 nav a {
@@ -70,11 +65,7 @@ nav {
     justify-content: center;
     gap: 1.5rem;
 
-    background: -webkit-linear-gradient(left, #5983bf, #11063d);
-    background: -moz-linear-gradient(left, #5983bf, #11063d);
-    background: -ms-linear-gradient(left, #5983bf, #11063d);
-    background: -o-linear-gradient(left, #5983bf, #11063d);
-    background: linear-gradient(to right, #5983bf, #11063d);
+    background: #fff;
     transition: 1s;
     transform: translateY(-100vh);
   }

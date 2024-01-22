@@ -7,7 +7,10 @@ const RedeSociais = (props) => {
   return (
     <div
       className={Styles.Container}
-      style={{ justifyContent: `${props.posicao}` }}
+      style={{
+        justifyContent: `${props.posicao}`,
+        alignItems: `${props.posicao}`,
+      }}
     >
       <a href="https://www.instagram.com/" target="blank">
         <SvgInstagram />

@@ -7,14 +7,14 @@
 .Container svg {
   width: 2rem;
   height: 3rem;
-  fill: #eee;
-  margin-right: 1rem;
+  fill: #a07ccf;
+  gap: 0.5rem;
 }
 @media only screen and (max-width: 1024px) {
   .Container svg {
     width: 2rem;
     height: 3rem;
-    fill: #eee;
+    /* fill: #eee; */
     margin-right: 1rem;
   }
 }
