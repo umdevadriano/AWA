@@ -4,6 +4,8 @@ import Logo from '../Logo/Logo';
 import '../Navbar/Navbar.css';
 import { Link } from 'react-scroll';
 
+
+
 function Navbar() {
   const navRef = useRef();
   const titulos = [
@@ -18,7 +20,7 @@ function Navbar() {
   };
 
   return (
-    <header>
+    <header >
       <Logo logo="AWA" tamanho="3rem" tipo="T" />
 
       <nav ref={navRef}>

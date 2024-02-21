@@ -3,20 +3,22 @@
   height: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   padding: 1rem;
-
-  /* align-items: flex-end; */
 }
 .Container h2 {
   display: flex;
   width: 21rem;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 900;
   font-size: 16px;
-  line-height: 25px;
+  line-height: 35px;
   text-align: center;
-  text-shadow: black 0.1em 0.1em 0.6em;
+  /* text-shadow: black 0.1em 0.1em 0.6em; */
+      background: linear-gradient(to right, #f8f8f8 13%, #ddcdf1 56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 900px) {

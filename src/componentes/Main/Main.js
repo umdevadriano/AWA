@@ -3,7 +3,7 @@ import Banner from '../Banner/Banner';
 import Especialidades from '../Especialidades/Especialidades';
 import Sobre from '../Sobre/Sobre';
 import Styles from './Main.module.css';
-import imagem from '../Banner/transferencia-de-tecnologia.jpg';
+import imagem from '../Banner/testeimagemetA.png';
 import Contato from '../Contato/Contato';
 
 const Main = () => {

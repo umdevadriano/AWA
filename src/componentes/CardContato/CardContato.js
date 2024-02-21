@@ -12,14 +12,16 @@ const CardContato = () => {
     <div className={Styles.Container}>
       <div>
         <h1>
-          <lord-icon
-            src="https://cdn.lordicon.com/elzslyvl.json"
-            trigger="hover"
-            style={{ width: '100px', height: '100px' }}
-          ></lord-icon>
+      
           <br />
           <small>
-            « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed »{' '}
+            Com atuação em todo o Brasil, a Awa está pronta para
+            atender às necessidades de criação de landing pages e
+            softwares personalizados. Nossa equipe especializada em
+            design e programação está preparada para oferecer
+            soluções personalizadas que atendam às demandas
+            específicas de cada cliente, garantindo excelência em cada
+            projeto.
           </small>
         </h1>
       </div>
