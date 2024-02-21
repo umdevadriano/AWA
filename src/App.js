@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <WhatsAppContato
-        texto="Agendar horário"
+        texto="Fale Conosco"
         link="https://wa.me/?text=Ol%C3%A1%21+Estou+no+site+e+gostaria+de+agendar+um+horário"
       />
       <Navbar />
