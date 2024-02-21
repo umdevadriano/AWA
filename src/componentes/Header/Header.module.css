@@ -12,8 +12,8 @@ background-position: center;
 @media (max-width: 900px) {
   .Container {
     width: 100%;
-    height: 25rem;
+ 
 
-    padding: 2rem;
+    /* padding: 2rem; */
   }
 }
